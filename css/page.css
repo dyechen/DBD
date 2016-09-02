@@ -1,0 +1,386 @@
+.smallpage {
+  margin:auto;
+  width: 400px;
+}
+.loginform .control-label {
+  width: 100px;
+}
+.loginform .controls {
+  margin-left: 110px;
+}
+.control-group {
+  margin-top: 5px;
+}
+.brand {
+  color:#FA503A !important;
+}
+.mlink, .rowlink a {
+  color: black;
+  text-decoration: none;
+  border-bottom: 1px black dotted
+}
+fieldset legend input#title {
+  font-size: 1.3em;
+  height: 40px;
+  margin-bottom: 10px;
+  width: 450px;
+}
+.rinp {
+  width: 50px;
+  text-align: right;
+}
+#recipecontent {
+  width: 100%;
+  margin:auto;
+}
+.form-horizontal .control-group {
+    margin-bottom: 10px;
+}
+#cmt {
+  width: 450px;
+}
+#favrate {
+  float: right;
+  width: 300px;
+}
+#rate {
+  float:right;
+}
+#favlink {
+    margin-top: 2px;
+    margin-right: 20px;
+    float:right;
+}
+.ftext {
+    width:161px;
+    float:left;
+}
+.smin {
+    float: left;
+    width: 85px;
+    margin-top: 1px;
+    margin-left: 5px;
+}
+.smlab {
+  float:left;
+  clear:none;
+  display: inline;
+  width:auto;
+  font-size:10px;
+  margin-right: 10px;
+}
+.smlab input {
+  margin-right: 5px;
+}
+.rlab {
+    width: 290px;
+    float: left;
+    margin-bottom: 2px;
+}
+.runit {
+    width: 40px;
+    float: left;
+    text-align:right;
+}
+.rdrops, .rgrams, .rfgrams {
+    width: 60px;
+    float: left;
+    text-align:right;
+    font-weight: bold;
+}
+.rpercent {
+    float: left;
+    width: 50px;
+    text-align:right;
+}
+#rechead {
+    font-weight: bold;
+    width: 300px;
+}
+.recline {
+    clear:left;
+    overflow:auto;
+    width: 300px;
+}
+.highlight {
+  background-color: #eee;
+}
+body,div,article,section,header,footer,figure,p,time,ul,li,form,input,button,select,table,tr,th,td,h1,h2,h3,dl,dt,dd{
+	margin:0;
+	padding:0;
+	font-family: "΢���ź�", 'Microsoft Yahei','HelveticaNeue',sans-serif;
+}
+.rtotals {
+  font-style: bold;
+}
+.pgvgo {
+  margin-top: -8px;
+  clear:both;
+}
+.flm5 {
+  float:left;
+  margin-right:5px;
+}
+.flavrate {
+  float:right;
+  text-align:right;
+}
+.flavtop, .flavnote {
+  margin-bottom: 5px;
+}
+.flavnote {
+  padding: 10px;
+}
+#ermsg {
+  text-align: center;
+  padding: 10px;
+  background-color: #bb0000;
+  color: #fff;
+  font-weight: bold;
+  margin-top: 5px;
+}
+#goog-gt-tt {
+  display:none;
+}
+ .ui-autocomplete {
+  max-height: 190px;
+  overflow-y: auto;
+  /* prevent horizontal scrollbar */
+  overflow-x: hidden;
+}
+ /* IE 6 doesn't support max-height
+* we use height instead, but this forces the menu to always be this tall
+*/
+* html .ui-autocomplete {
+height: 100px;
+}
+.blklink {
+  display:block;
+}
+.fwar {
+  float:left;
+  margin-right:5px;
+  margin-top: 3px;
+}
+#advsearch {
+  padding-top: 9px;
+  padding-left: 8px;
+  float:left;
+}
+#totalrecs {
+  clear:both;
+  font-weight:bold;
+  margin-bottom:8px;
+}
+.flavField {
+  float:left;
+  width:230px;
+}
+.indic {
+  display: inline-table;
+  width: 5px;
+  height:5px;
+  margin: 4px;
+  margin-top: 2px;
+}
+.indic-danger {
+  background-color: #C83F39;
+}
+.indic-warning {
+  background-color: #F99F1E;
+}
+.indic-success {
+  background-color: #59AE59;
+}
+.indic-white {
+  background-color: #eee;
+  border: 1px solid #000;
+  width: 3px;
+  height: 3px;
+}
+.add-on {
+  font-size: 10px !important;
+}
+.comment {
+  margin-bottom: 10px;
+}
+.profimg {
+  width: 80px;
+  height: 80px;
+  padding: 3px;
+  border: 1px solid #aaa;
+}
+.ric {
+  cursor:pointer;
+  float:right;
+  display: inline-block;
+}
+.novo {
+  font-size:.7em;
+  float:right;
+  margin-top:2px;
+}
+.modalConfirmComment, .modalConfirmRecipe {
+  display:none;
+  position:absolute;
+  top:-1000px;
+  left:-1000px;
+}
+.zeroclipboard-is-hover { background-color: #007FBE; color: #fff; }
+.vc-icon {
+  background-image: url(/img/vc_logo_20x16.png);
+  background-repeat: no-repeat;
+  background-position: top left;
+  margin-bottom: -2px;
+  width: 20px;
+  height: 16px;
+  display: inline-block;
+}
+.tdper {
+  text-align: right !important;
+}
+.misbut {
+  cursor:pointer;
+}
+
+/* Flavor stash style by Aux */
+
+#recipecontent.flavour-stash {
+    width: auto;
+    max-width: 600px;
+}
+
+.flavour-stash .flavtop a {
+    font-size: 16px;
+    font-weight: bold;
+}
+/*
+.flavour-stash .flavtop {
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+}
+*/
+.fdetail {
+  margin-top: 10px;
+  border-top: 1px solid #ddd;
+  padding-top: 8px;
+}
+.flavour-stash label {
+    display: inline;
+    margin-right: 20px;
+}
+
+.flavour-stash label.smlab {
+    margin-right: 0;
+    margin-left: 5px;
+    float: none;
+}
+
+.flavour-stash label.smlab input {
+    margin-top: 0;
+}
+
+.flavour-stash .out-label {
+    margin-right: 10px;
+}
+
+.flavour-stash .input-append {
+    margin-bottom: 0;
+}
+
+.flavour-stash input {
+    margin-bottom: 5px;
+}
+
+.flavour-stash .inputs {
+    padding: 0 10px;
+}
+.reccount {
+  color: #59AE59;
+}
+.graico {
+  width: 22px;
+  height: 22px;
+}
+.ipbadge {
+  padding: 0 5px 0 5px;
+  background-color:#ccc;
+  font-size:.8em;
+  font-weight:bold;
+  font-family: courier new;
+}
+.mynavbtn, .mynavbtn:hover{
+  color: #777;
+  text-decoration: none;
+  text-shadow: 0 1px 0 #fff;
+  padding-top:10px;
+  display:block;
+}
+h3 .icon {
+  margin-top: 8px;
+}
+.collapser {
+  cursor: pointer;
+  background-color: #eee;
+  border: 1px solid #ddd;
+  border-radius: 0.2em;
+  cursor: pointer;
+  padding-left: 5px;
+}
+.collapsed {
+  display: none;
+}
+.instash {
+    color: #00A53F !important;
+}
+
+/*
+@Author
+@Duan by 2016.08.10
+@To DBD
+*/
+body{
+  width: 98%;
+  height: 100%;
+}
+
+.progress{
+  width:300px;
+}
+
+#details{
+  width: 100%;
+  display: none;
+}
+
+#rname{
+  margin-top: 1em;
+  width: 250px;
+  height: 40px;
+  line-height: 30px;
+  font-size: 30px;
+  float: left;
+}
+
+#savebtn{
+  margin-top: 1em;
+}
+#recipe{
+  display: block;
+}
+
+.input-append input{
+  width: 80%;
+}
+.input-append .controls{
+  margin-left: 0px;
+}
+#flavors .controls input{
+  width: 50%;
+  margin-left: 1%;
+}
+
+.control-label{
+  width: 100px;
+}

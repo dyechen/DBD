@@ -1,0 +1,50 @@
+.ui-tooltip-content, #cookie-bar, .nopr, .navbar, input[type="button"], form {
+    display: none;
+}
+abbr {
+    border-bottom: none;
+}
+abbr[title], abbr[data-original-title] {
+  border-bottom: none;
+}
+abbr[title]:after {
+  content: "";
+}
+a[href]:after {
+  content: "";
+}
+.recline {
+  border-top: 1px dotted gray;
+}
+#recipecontent {
+  width: 600px;
+}
+.rlab {
+  width: 195px;
+}
+.rlab {
+  width: 445px;
+}
+.rlab a {
+  color: #000;
+  text-decoration: none;
+}
+.recline, #rechead {
+  width: 600px;
+}
+#stashForm {
+  display: block !important;
+}
+.flavtop, .flavnote {
+  border:none;
+  color: #fff;
+}
+.genlist tr, .flavorlist tr, .recipelist tr {
+  border-bottom: 1px solid #ccc;
+}
+.genlist tr:last, .flavorlist tr:last, .recipelist tr:last {
+  border-bottom: none;
+}
+#stashForm {
+  font-size: 0.8em;
+}
