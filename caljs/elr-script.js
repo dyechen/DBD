@@ -47,7 +47,7 @@ function hideToggler(){var a=$(this);$(this).nextAll().each(function(){var b=$(t
 @Author
 @Duan By 2016.08.10
 */
-function saveBtn(){saveCache();$("#frmrec").css("display","none");$("#details").css("display","block");$("#actbut").show();$(".rgrams").hide();$(".rdrops").show();scroll(0,0)};
+function saveBtn(){saveCache();$("#frmrec").css("display","none");$("#insclick").css("display","none");$("#details").css("display","block");$("#actbut").show();$(".rgrams").hide();$(".rdrops").show();scroll(0,0)};
 function deductFlavor(){
   if(nflav==3)return;
   $("#inputFlavor"+nflav).remove();
